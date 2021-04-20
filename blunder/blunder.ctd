@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="?" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1594687215.81" ts_lastsave="1594850127.96" unique_id="1">
+		<rich_text>
+ffuf:
+/bl-content/
+/bl-kernel/
+/admin/
+todo.txt
+
+used ‘cewl’ to generate wordlist from the website
+wrote brute.py to bruteforce user ‘fergus’ which was found in todo.txt. Added X-Forwarded-For to bypass security
+
+user: fergus:RolandDeschain
+
+CVE
+as www-data:
+found hash for hugo in: /var/www/bludit-3.10.0a/bl-content/databases/users.php
+cracked on crackstation.com
+su hugo:Password120
+tty shell spawn
+sudo -l: can run bin/bash as anyone but not root (!root)
+bypassed with sudo -u#-1 /bin/bash
+
+(-u#-1 uses id of root)
+</rich_text>
+	</node>
+</cherrytree>

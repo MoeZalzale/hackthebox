@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="cascade" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586818223.85" ts_lastsave="1586832157.82" unique_id="1">
+		<rich_text>domain name: cascade.local
+DC=cascade,DC=local
+
+</rich_text>
+		<rich_text weight="heavy">creds:</rich_text>
+		<rich_text>
+base64: clk0bjVldmE=
+r.thompson:rY4n5eva
+
+s.smith:hex:6b,cf,2a,4b,6e,5a,ca,0f
+</rich_text>
+		<rich_text foreground="#cccccc">sT333ve2</rich_text>
+		<rich_text>
+
+TODO:
+
+find that TempAdmin with ArcSvc ?
+
+</rich_text>
+	</node>
+</cherrytree>

